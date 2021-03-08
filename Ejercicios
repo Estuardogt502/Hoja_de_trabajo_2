@@ -1,0 +1,26 @@
+#Ejercicio1
+numero = int(input("Ingrese un numero: "))
+for i in range(0, numero, 1):
+    for j in range(i, 0, -1):
+        j = "*"
+        print(j, end=" ")
+    print("*")
+
+#Ejercicio2
+numero = int(input("Ingrese un numero: "))
+for i in range(0,numero+1):
+     print(numero-i, end = " " ", ")
+print()
+
+
+#Ejercicio3
+
+numero = int(input("Ingrese un numero: "))
+print("\n")
+i = 2
+while numero % i != 0:
+    i += 1
+if i == numero:
+    print(str(numero) + " es un numero primo")
+else:
+    print(str(numero) + " no es un numero primo")
